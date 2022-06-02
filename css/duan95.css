@@ -1,0 +1,32 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Urbanist", sans-serif;
+}
+.header_group {
+  background: #d20d00;
+}
+.header__categories {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header__categories__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 32px;
+}
+
+.header__categories__pseudo-element::after {
+  content: "";
+  display: block;
+  background-color: #ffffff;
+  width: 30px;
+  height: 2px;
+  margin: auto;
+}
